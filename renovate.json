@@ -26,11 +26,13 @@
     },
     {
       "matchPackageNames": ["vue"],
-      "matchCurrentVersion": ">=2.0.0 <3.0.0"
+      "matchCurrentVersion": "2",
+      "allowedVersions": "2"
     },
     {
       "matchPackageNames": ["vue"],
-      "matchCurrentVersion": ">=3.0.0 <4.0.0"
+      "matchCurrentVersion": "3",
+      "allowedVersions": "3"
     }
   ]
 }
