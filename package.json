@@ -1,0 +1,11 @@
+{
+  "name": "renovate-test",
+  "version": "0.0.0",
+  "description": "Test",
+  "type": "module",
+  "license": "MIT",
+  "workspaces": [
+    "packages/vue-3",
+    "packages/vue-2"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@finn-no/vue",
+  "version": "0.0.0",
+  "description": "An ESM version of Vue for Finn",
+  "type": "module",
+  "scripts": {
+    "copy": "../../scripts/copy.js vue-3 vue dist/*.js",
+    "build": "echo 'noop';",
+    "eik:login": "eik login",
+    "eik:publish": "eik publish",
+    "eik:alias": "eik npm-alias",
+    "eik:publish:ci": "../../scripts/publish.js vue-3 vue"
+  },
+  "dependencies": {
+    "vue": "3.2.41"
+  }
+}

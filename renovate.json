@@ -1,0 +1,36 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "enabledManagers": ["npm", "github-actions"],
+  "dependencyDashboard": true,
+  "packageRules": [
+    {
+      "matchDepTypes": ["dependencies"],
+      "schedule": [
+        "after 6pm every weekday",
+        "before 6am every weekday"
+      ],
+      "rangeStrategy": "pin",
+      "automerge": true,
+      "major": {
+        "automerge": false
+      }
+    },
+    {
+      "matchDepTypes": ["devDependencies"],
+      "schedule": ["every weekend"],
+      "rangeStrategy": "pin",
+      "automerge": true,
+      "major": {
+        "automerge": false
+      }
+    },
+    {
+      "matchPackageNames": ["vue"],
+      "matchCurrentVersion": "/^2\\./"
+    },
+    {
+      "matchPackageNames": ["vue"],
+      "matchCurrentVersion": "/^3\\./"
+    }
+  ]
+}
