@@ -1,11 +1,15 @@
 {
   "name": "renovate-test",
   "version": "0.0.0",
+  "packageManager": "pnpm",
   "description": "Test",
   "type": "module",
   "license": "MIT",
   "workspaces": [
     "packages/vue-3",
     "packages/vue-2"
-  ]
+  ],
+  "dependencies": {
+    "tap": "16.2.0"
+  }
 }

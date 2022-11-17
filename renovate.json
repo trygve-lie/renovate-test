@@ -2,6 +2,9 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "enabledManagers": ["npm", "github-actions"],
   "dependencyDashboard": true,
+  "lockFileMaintenance": { 
+    "enabled": true 
+  },
   "packageRules": [
     {
       "matchDepTypes": ["dependencies"],
