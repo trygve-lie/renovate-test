@@ -1,10 +1,10 @@
 lockfileVersion: 5.4
 
 specifiers:
-  tap: 16.2.0
+  tap: 16.3.10
 
 dependencies:
-  tap: 16.2.0
+  tap: 16.3.10
 
 packages:
 
@@ -1202,8 +1202,8 @@ packages:
       yaml: 1.10.2
     dev: false
 
-  /tap/16.2.0:
-    resolution: {integrity: sha512-ikfNLy701p2+sH3R0pAXQ/Aen6ZByaguUY7UsoTLL4AXa2c9gYQL+pI21p13lq54R7/CEoLaViC1sexcWG32ig==}
+  /tap/16.3.10:
+    resolution: {integrity: sha512-q5Am+PpGHS6JSjk/Zn4bCRBihmZVM15v/MYXUy60wenw5HDe7pVrevLCEoMEz7tuw6jaPOJJqni1y8apN23IGw==}
     engines: {node: '>=12'}
     hasBin: true
     peerDependencies:
