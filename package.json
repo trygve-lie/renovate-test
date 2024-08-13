@@ -10,6 +10,6 @@
     "packages/vue-2"
   ],
   "dependencies": {
-    "tap": "16.2.0"
+    "tap": "21.0.1"
   }
 }
